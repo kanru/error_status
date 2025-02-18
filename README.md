@@ -1,7 +1,7 @@
 # error_status
 
 [![License: MIT OR Apache-2.0](https://img.shields.io/badge/License-MIT%20OR%20Apache--2.0-blue.svg)](LICENSE)
-[![crates.io](https://img.shields.io/crates/v/error_status.svg)](crates.io/crates/error_status)
+[![crates.io](https://img.shields.io/crates/v/error_status.svg)](https://crates.io/crates/error_status)
 
 
 A lightweight error handling library for Rust that combines HTTP-style error statuses with contextual information.
@@ -18,7 +18,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-error_status = "0.1.0";
+error_status = "0.1.0"
 ```
 
 ## Quick Start
