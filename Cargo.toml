@@ -1,0 +1,18 @@
+[package]
+name = "error_status"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+edition = "2021"
+description = "Model common error context with HTTP 4xx and 5xx code"
+keywords = ["error-handling", "http", "status_code"]
+categories = ["development-tools", "rust-patterns"]
+repository = "https://github.com/kanru/error_status"
+
+[dependencies]
+http = { version = "1.2.0", optional = true }
+
+[features]
+http = ["dep:http"]
+
+[dev-dependencies]
+anyhow = "1.0.95"
